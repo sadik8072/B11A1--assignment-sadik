@@ -223,16 +223,18 @@ font-weight: 400;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 40px;
   border-radius: 24px;
+ margin-top: 24px;
 }
 .news{
   margin: 0px 160px;
 }
-
 .news-img{
   border-radius: 24px;
-
-
 }
+
+
+
+
 .news-btn{
   color: #FFFFFF;
     font-size: 18px;
@@ -351,4 +353,64 @@ font-weight: 400;
 .footer{
   margin: 50px 160px;
 
+}
+/* news-letter-container */
+.news-letter-container{
+  border-radius: 24px;
+background: rgb(198, 228, 214);
+padding: 90px 100px;
+margin: o 160px;
+
+}
+.news-letter{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.news-letter-input{
+  display: flex;
+  justify-content: center;
+
+  
+}
+.input-field{
+  padding: 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  width: 60%;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.news-letter-tittle{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+.news-letter-discription{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.new-letter-button{
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+.news-letter-down{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
 }
