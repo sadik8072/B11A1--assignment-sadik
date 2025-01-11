@@ -1,0 +1,327 @@
+
+
+
+.open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+   
+
+    /* shade-stayl */
+
+
+ /* nav style */
+ nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 160px;
+    align-items: center;
+   }
+ .nav-tittle{
+   font-weight: 700;
+   font-size: 32px;
+ }
+ nav ul li{
+    list-style: none;
+ }
+ .btn-praymari{
+    background: rgb(245, 245, 245);
+    font-weight: 36;
+  color:#006A50 ;
+  padding: 15px 30px 15px 30px;
+  border-radius: 8px;
+  border: 2px solid #006A50;
+  
+ }
+ /* banner-section */
+.banner-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 100px 80px 100px;
+  margin: 20px 160px 80px 160px;
+
+}
+.banner-welcome{
+  
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+}
+.banner-discription{
+  
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+  color: rgb(14, 14, 14);
+  font-size: 54px;
+ font-weight: 700;
+ font-family: Fira Sans;
+}
+.btn-banner{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+border: none;
+
+}
+/* optional-section */
+.optional-tittle{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+margin-left: 160px;
+}
+.optional-parents{
+  display: flex;
+  gap: 24px;
+  margin: 32px 160px 80px 160px;
+
+}
+.optional-box{
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 24px;
+}
+.tittles{
+  color:#0E0E0ECC;
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+margin-top: 26px;
+margin-bottom: 12px;
+}
+.optional-dis{
+  color:#0E0E0ECC;
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+/* second-main */
+.second-main{
+  margin: 80px 160px 32px 160px;
+}
+.second-main-tittle{
+ font-weight: 700;
+ font-size: 40px;
+ font-family: Fira Sans;
+}
+.second-main-dis{
+  font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+/* main styles */
+.main-parents{
+  display: flex;
+  margin:32px 120px 32px 120px;
+  gap: 24px;
+  padding: 32px;
+}
+
+.first-box{
+  background-color: #5490F533;
+  
+ 
+}
+.second-box{
+  background-color: #C6E4D6;
+  
+  
+  
+}
+.third-box{
+  background-color: #F7EBCF;
+  
+  
+}
+.main-box{
+  border-radius: 16px;
+  padding: 32px;
+
+  
+  }
+.b1-button{
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+background-color:#5490F5;
+padding: 11px 20px 11px 20px;
+border: none;
+margin-top: 75px;
+}
+.b2-button{
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #09A15C;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  margin-top: 75px;
+}
+.b3-button{
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #FFC239;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  margin-top: 75px;
+
+}
+
+ 
+.main-tittles{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+margin-top: 26px;
+margin-bottom: 12px;
+}
+.main-dis{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+/* DR-yunuss */
+.dr-yunus{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 40px 20px ;
+  margin: 0px 160px ;
+  
+}
+/* recent newss */
+.news-contaner{
+  display: flex;
+  gap: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 40px;
+  border-radius: 24px;
+}
+.news{
+  margin: 0px 160px;
+}
+
+.news-img{
+  border-radius: 24px;
+
+
+}
+.news-btn{
+  color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 12px 22px;
+    margin-top: 10px;
+    border: none;
+}
+.news-tittle{color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+.news-dis{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.news-box-tittle{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+}
+.news-box-dis{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.date-title{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+/* donate_taka */
+.today{
+  text-align: center;
+}
+.today-dic{
+  text-align: center;
+}
+.donate-takas{
+  display: flex;
+  justify-content: space-evenly;
+}
+.donate-takas h3{
+  color: #0E0E0ECC;
+    font-size: 28px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    padding: 30px 35px;
+}
+.donate-takas .common-color{
+  background-color: #C6E4D6;
+}
+.input-field{
+  display: flex;
+  justify-content: center;
+}
+.input-type{
+  background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    color: #0E0E0E4D;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 20px;
+    padding: 20px 350px;
+    margin-top: 30px;
+
+}
+.donate-btn{
+  display: flex;
+  justify-content: center;
+ 
+}
+.recent-btn{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #006A50;
+  border-radius: 8px;
+  padding: 12px 22px;
+  margin-top: 10px;
+}
