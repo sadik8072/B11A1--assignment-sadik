@@ -113,84 +113,77 @@ font-size: 16px;
 font-weight: 400;
 }
 /* second-main */
-.second-main{
-  margin: 80px 160px 32px 160px;
+
+
+/* main styles */
+.future{
+  margin:0 160px ;
+  margin-bottom: 32px;
+
 }
-.second-main-tittle{
- font-weight: 700;
- font-size: 40px;
- font-family: Fira Sans;
+.vision-of-future{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
 }
-.second-main-dis{
-  font-family: Fira Sans;
+.future-dis{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
+margin-bottom: 32px;
 }
-/* main styles */
-.main-parents{
+.future_container{
   display: flex;
-  margin:32px 120px 32px 120px;
-  gap: 24px;
-  padding: 32px;
-}
-
-.first-box{
-  background-color: #5490F533;
+  gap: 20px;
   
+
  
-}
-.second-box{
-  background-color: #C6E4D6;
-  
-  
   
 }
-.third-box{
-  background-color: #F7EBCF;
-  
-  
-}
-.main-box{
-  border-radius: 16px;
-  padding: 32px;
+.future-info{
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 32px;
 
-  
-  }
-.b1-button{
+}
+.green{
+  background: rgb(198, 228, 214);
+}
+.yellow{
+  background: rgb(247, 235, 207);
+}
+.btn-info{
   color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 600;
-border-radius: 8px;
-background-color:#5490F5;
 padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(84, 144, 245);
 border: none;
-margin-top: 75px;
 }
-.b2-button{
+.btn-green{
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+border: none;
+}
+.btn-yellow{
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 600;
-  border-radius: 8px;
-  background-color: #09A15C;
   padding: 11px 20px 11px 20px;
-  border: none;
-  margin-top: 75px;
-}
-.b3-button{
-  color: rgb(255, 255, 255);
-  font-family: Fira Sans;
-  font-size: 16px;
-  font-weight: 600;
   border-radius: 8px;
-  background-color: #FFC239;
-  padding: 11px 20px 11px 20px;
   border: none;
-  margin-top: 75px;
-
+  background: rgb(255, 194, 57);
 }
-
  
 .main-tittles{
   color: rgba(14, 14, 14, 0.8);
@@ -311,7 +304,8 @@ font-weight: 400;
 }
 .input-field{
   display: flex;
-  justify-content: center;
+  justify-content: ;
+  align-items: center;
 }
 .input-type{
   background-color: #FFFFFF;
